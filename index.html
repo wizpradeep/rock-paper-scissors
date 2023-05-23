@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors By Pradeep</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!--  -->
+    <div class="main">
+      <div class="top">
+        <h1>rock paper scissors</h1>
+      </div>
+      <div class="mid">
+        <div class="mid-left">
+          <h1>Player</h1>
+          <div class="icons">
+            <i id="a" class="userOpt fa fa-hand-rock"></i>
+            <i id="b" class="userOpt fa fa-hand-paper"></i>
+            <i
+              id="c"
+              class="userOpt fa fa-hand-scissors"
+              style="transform: rotateY(180deg)"></i>
+          </div>
+        </div>
+        <div class="mid-mid">
+          <table>
+            <tr>
+              <th>Player</th>
+              <th>=</th>
+              <th id="playerScore">0</th>
+            </tr>
+            <tr>
+              <th>Computer</th>
+              <th>=</th>
+              <th id="computerScore">0</th>
+            </tr>
+          </table>
+          <p id="message"></p>
+          <button id="rePlay">Replay</button>
+        </div>
+        <div class="mid-right">
+          <h1>Computer</h1>
+          <div class="icons">
+            <i id="d" class="computerOpt fa fa-hand-rock"></i>
+            <i id="e" class="computerOpt fa fa-hand-paper"></i>
+            <i id="f" class="computerOpt fa fa-hand-scissors"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <script src="script.js"></script>
+  </body>
+</html>
