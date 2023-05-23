@@ -43,6 +43,7 @@
   
 }
 #rePlay{
+  border-radius: 5px;
   cursor: pointer;
   padding: 5px 0px;
   border: none;
@@ -89,20 +90,20 @@
     font-size: medium;
   }  
   .mid-left h1, .mid-right h1{
-    font-size: small;
+    font-size: medium;
   }
  .mid-mid table{
-  font-size: x-small;
+  font-size: small;
  }
  #message{
-  font-size: x-small;
+  font-size: small;
  }
  .userOpt,.computerOpt{
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 #rePlay{
   padding: 1px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 50px;
 }
 }
